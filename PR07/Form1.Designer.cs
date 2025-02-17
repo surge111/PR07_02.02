@@ -56,7 +56,8 @@ namespace PR07
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(6, 36);
+            this.label1.ForeColor = System.Drawing.Color.Green;
+            this.label1.Location = new System.Drawing.Point(12, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 23);
             this.label1.TabIndex = 2;
@@ -66,6 +67,7 @@ namespace PR07
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Green;
             this.label2.Location = new System.Drawing.Point(6, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 23);
@@ -75,6 +77,7 @@ namespace PR07
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.Green;
             this.button1.Location = new System.Drawing.Point(10, 212);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(276, 37);
